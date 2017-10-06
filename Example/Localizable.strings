@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  LocusPocus
+
+  Created by Ivan Sobolevskiy on 10/6/17.
+  Copyright © 2017 CocoaPods. All rights reserved.
+*/
+
+"test.example" = "Test";

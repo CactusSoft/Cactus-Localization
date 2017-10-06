@@ -8,14 +8,22 @@
 
 import Foundation
 
-/// Falls back first to the Base.lproj, then to the provided `value`.
-
 public extension String {
+    /**
+     Returns localized version of string by key. Falls back first to the Base.lproj, then to the provided `value`.
+     'Key' on which this function is called cannot be empty.
+     
+     */
     func localized(tableName: String? = nil, bundle: Bundle = Bundle.main, value: String = "", comment: String? = nil) -> String {
         let key = self
         return localize(with: key, tableName: tableName, bundle: bundle, value: value, comment: comment)
     }
     
+    /**
+     Localized string by key. Falls back first to the Base.lproj, then to the provided `value`.
+     'Key' on which this function is called cannot be empty.
+     
+     */
     mutating func localize(tableName: String? = nil, bundle: Bundle = Bundle.main, value: String = "", comment: String? = nil) {
         let key = self
         self = localize(with: key, tableName: tableName, bundle: bundle, value: value, comment: comment)

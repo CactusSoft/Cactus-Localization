@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		707F70291F87880C000EF755 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707F70281F8787E6000EF755 /* Localizable.strings */; };
+		707F702A1F87880C000EF755 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707F70281F8787E6000EF755 /* Localizable.strings */; };
+		707F702E1F8788EB000EF755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		707F702F1F8788EF000EF755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		707F70301F8788F4000EF755 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		73B2BCE31A5CBD8A4D46F11D /* Pods_LocusPocus_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA42DEACF0F53FFF2A30B370 /* Pods_LocusPocus_Example.framework */; };
 		E838932A4132AAB641E57156 /* Pods_LocusPocus_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186B73D6BAF5CE8592A62A13 /* Pods_LocusPocus_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -41,12 +43,13 @@
 		607FACE51AFB9204008FA782 /* LocusPocus_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocusPocus_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7494A7D22740CFD8E9D34209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		707F70281F8787E6000EF755 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		7494A7D22740CFD8E9D34209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B0AF4762BD6983D45C601A9 /* Pods-LocusPocus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocusPocus_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocusPocus_Example/Pods-LocusPocus_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AA42DEACF0F53FFF2A30B370 /* Pods_LocusPocus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocusPocus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECB54DD05073F068B2349977 /* LocusPocus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocusPocus.podspec; path = ../LocusPocus.podspec; sourceTree = "<group>"; };
+		ECB54DD05073F068B2349977 /* LocusPocus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocusPocus.podspec; path = ../LocusPocus.podspec; sourceTree = "<group>"; };
 		EDA6A774CAEBB0AEB01030FC /* Pods-LocusPocus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocusPocus_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocusPocus_Tests/Pods-LocusPocus_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF748B8DA01B44E64BCF5690 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF748B8DA01B44E64BCF5690 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				707F70281F8787E6000EF755 /* Localizable.strings */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for LocusPocus */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -248,9 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				707F70301F8788F4000EF755 /* LaunchScreen.xib in Resources */,
+				707F702F1F8788EF000EF755 /* Images.xcassets in Resources */,
+				707F70291F87880C000EF755 /* Localizable.strings in Resources */,
+				707F702E1F8788EB000EF755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707F702A1F87880C000EF755 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +360,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocusPocus_Tests/Pods-LocusPocus_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LocusPocus/LocusPocus.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocusPocus.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

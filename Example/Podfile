@@ -1,11 +1,9 @@
 use_frameworks!
 
 target 'LocusPocus_Example' do
-  pod 'LocusPocus', :path => '../'
+    pod 'LocusPocus', :path => '../'
+end
 
-  target 'LocusPocus_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'LocusPocus_Tests' do
+    pod 'LocusPocus', :path => '../'
 end
