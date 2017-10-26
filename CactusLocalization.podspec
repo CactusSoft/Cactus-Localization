@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CactusLocalization'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CactusLocalization.'
+  s.summary          = 'A simple wrapper around NSLocalizedString'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+CactusLocalization is a simple wrapper for NSLocalizedString with a swiftier synthax. It uses the same Localizable.strings file, so you don't need to restructure your project.
                        DESC
 
   s.homepage         = 'https://github.com/PoltoraIvana/LocusPocus'

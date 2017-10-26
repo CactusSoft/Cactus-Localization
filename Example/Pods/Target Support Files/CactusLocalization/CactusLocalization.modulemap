@@ -1,0 +1,6 @@
+framework module CactusLocalization {
+  umbrella header "CactusLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}
