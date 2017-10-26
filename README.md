@@ -1,9 +1,9 @@
 # CactusLocalization
 
-[![CI Status](http://img.shields.io/travis/PoltoraIvana/LocusPocus.svg?style=flat)](https://travis-ci.org/PoltoraIvana/LocusPocus)
-[![Version](https://img.shields.io/cocoapods/v/LocusPocus.svg?style=flat)](http://cocoapods.org/pods/LocusPocus)
-[![License](https://img.shields.io/cocoapods/l/LocusPocus.svg?style=flat)](http://cocoapods.org/pods/LocusPocus)
-[![Platform](https://img.shields.io/cocoapods/p/LocusPocus.svg?style=flat)](http://cocoapods.org/pods/LocusPocus)
+[![CI Status](http://img.shields.io/travis/PoltoraIvana/CactusLocalization.svg?style=flat)](https://travis-ci.org/PoltoraIvana/CactusLocalization)
+[![Version](https://img.shields.io/cocoapods/v/CactusLocalization.svg?style=flat)](http://cocoapods.org/pods/CactusLocalization)
+[![License](https://img.shields.io/cocoapods/l/CactusLocalization.svg?style=flat)](http://cocoapods.org/pods/CactusLocalization)
+[![Platform](https://img.shields.io/cocoapods/p/CactusLocalization.svg?style=flat)](http://cocoapods.org/pods/CactusLocalization)
 
 CactusLocalization is a simple wrapper for NSLocalizedString with a swiftier synthax. It uses the same Localizable.strings file, so you don't need to restructure your project.
 
