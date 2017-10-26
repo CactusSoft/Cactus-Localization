@@ -25,7 +25,7 @@ CactusLocalization is a simple wrapper for NSLocalizedString with a swiftier syn
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PoltoraIvana' => 'ivan.sobolevskiy@cactussoft.biz' }
-  s.source           = { :git => 'https://github.com/PoltoraIvana/LocusPocus.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CactusSoft/Cactus-Localization.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
