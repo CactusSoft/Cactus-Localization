@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import LocusPocus
+import CactusLocalization
 
 class Tests: XCTestCase {
     

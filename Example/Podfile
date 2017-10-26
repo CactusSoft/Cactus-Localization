@@ -1,9 +1,9 @@
 use_frameworks!
 
 target 'LocusPocus_Example' do
-    pod 'LocusPocus', :path => '../'
+    pod 'CactusLocalization', :path => '../'
 end
 
 target 'LocusPocus_Tests' do
-    pod 'LocusPocus', :path => '../'
+    pod 'CactusLocalization', :path => '../'
 end

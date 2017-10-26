@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import LocusPocus
+import CactusLocalization
 
 class ViewController: UIViewController {
 
