@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CactusLocalization'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple wrapper around NSLocalizedString'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 CactusLocalization is a simple wrapper for NSLocalizedString with a swiftier synthax. It uses the same Localizable.strings file, so you don't need to restructure your project.
                        DESC
 
-  s.homepage         = 'https://github.com/PoltoraIvana/LocusPocus'
+  s.homepage         = 'https://github.com/CactusSoft/Cactus-Localization'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PoltoraIvana' => 'ivan.sobolevskiy@cactussoft.biz' }
